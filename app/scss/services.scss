@@ -1,0 +1,34 @@
+@import 'mixins';
+@import 'zmienne';
+
+
+section#services {
+    h2 {
+        text-transform: uppercase;
+    }
+    .container {
+        p {
+            padding-bottom: 30px;
+        }
+    }
+
+    .service-inner {
+        .fa {
+            background-color: $turkus;
+            border: 1px solid $turkus;
+            width: 70px;
+            height: 70px;
+            line-height: 70px;
+            color: $bialy;
+            border-radius: 50%;
+            font-size: 24px;
+            transition: all 0.4s;
+            margin: 20px;
+        }
+        .fa:hover {
+            background-color: $bialy;
+            color: $turkus;
+            transform: rotate(360deg);
+        }
+    }
+}

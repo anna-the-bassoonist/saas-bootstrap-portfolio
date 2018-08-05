@@ -1,0 +1,73 @@
+@import 'mixins';
+@import 'zmienne';
+
+#contact-us {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/footer/world-map.jpg);
+    padding: 200px 0;
+    @include background h3 {
+        color: $bialy;
+        text-transform: uppercase;
+    }
+    .container {
+        p {
+            padding-bottom: 45px;
+            color: $bialy;
+        }
+        .inputs-contact {
+            input {
+                margin-bottom: 15px;
+                padding: 30px;
+            }
+
+        }
+        .inputs-contact input[placeholder],
+        .form textarea[placeholder] {
+            text-transform: uppercase;
+        }
+        .form textarea {
+            height: calc(100% - 15px);
+
+
+        }
+
+    }
+
+    .form {
+        input[type="submit"] {
+            display: block;
+            width: 200px;
+            height: 50px;
+            background-color: #0ed8d6;
+            color: white;
+            text-transform: uppercase;
+            border: none;
+            border-radius: 5px;
+        }
+        input[type="submit"]:hover {
+            color: #0ed8d6;
+            background-color: #fff;
+        }
+    }
+
+    .line-height {
+        line-height: 70px;
+        /*    align-items: potrzebne tylko dlatego bo jest display flex*/
+        align-items: center;
+        height: 70px;
+        p,
+        ul {
+            margin: 0;
+            padding: 0;
+
+        }
+        
+        ul,li{
+               display: inline-block;
+    padding: 0 10px;
+}
+        } 
+    }
+
+
+
+

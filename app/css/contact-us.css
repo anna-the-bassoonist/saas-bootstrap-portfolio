@@ -1,0 +1,65 @@
+#contact-us {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/footer/world-map.jpg);
+    padding: 200px 0;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+}
+
+#contact-us h3 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#contact-us .container p {
+    padding-bottom: 45px;
+    color: #fff;
+}
+
+#contact-us .container .inputs-contact input {
+    margin-bottom: 15px;
+    padding: 30px;
+}
+
+#contact-us .container .inputs-contact input[placeholder],
+  #contact-us .container .form textarea[placeholder] {
+    text-transform: uppercase;
+}
+
+#contact-us .container .form textarea {
+    height: calc(100% - 15px);
+}
+
+#contact-us .form input[type="submit"] {
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color: #0ed8d6;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+}
+
+#contact-us .form input[type="submit"]:hover {
+    color: #0ed8d6;
+    background-color: #fff;
+}
+
+#contact-us .line-height {
+    line-height: 70px;
+    /*    align-items: potrzebne tylko dlatego bo jest display flex*/
+    align-items: center;
+    height: 70px;
+}
+
+#contact-us .line-height p,
+    #contact-us .line-height ul {
+    margin: 0;
+    padding: 0;
+}
+
+#contact-us .line-height ul, #contact-us .line-height li {
+    display: inline-block;
+    padding: 0 10px;
+}

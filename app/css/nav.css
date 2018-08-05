@@ -1,0 +1,17 @@
+#main-nav.changeColor {
+    background: rgba(14, 216, 214, 0.6);
+}
+
+nav #main-nav div a {
+    background-color: transparent;
+    transition: all 0.2s linear;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+}
+
+nav #main-nav div a:hover {
+    color: #222;
+}

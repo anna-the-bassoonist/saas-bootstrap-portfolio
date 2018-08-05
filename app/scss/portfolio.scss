@@ -1,0 +1,109 @@
+@import 'mixins';
+@import 'zmienne';
+
+#portfolio {
+    background-color: $bialy-2;
+
+    h2 {
+        text-transform: uppercase;
+    }
+
+    .container {
+        p {
+            padding-bottom: 30px;
+        }
+
+    }
+
+
+
+}
+
+
+    .content-portfolio {
+        background-color: $bialy;
+        border: 1px solid $krem;
+        margin-bottom: 30px;
+        h3 {
+            padding-top: 20px;
+        }
+
+    }
+
+    .overflow {
+        height: 300px;
+        overflow: hidden;
+    }
+
+    .background-1 {
+        background-image: url(../img/portfolio/box_of_cookies.jpg);
+        @include background;
+    }
+
+    .background-2 {
+
+        background-image: url(../img/portfolio/chaotic_paint.jpg);
+
+        @include background;
+    }
+
+    .background-3 {
+
+        background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
+        @include background;
+
+    }
+
+    .background-4 {
+
+        background-image: url(../img/portfolio/child_with_blue_paint.jpg);
+        background-size: cover;
+        height: 100%;
+        background-position: center;
+
+    }
+
+    .background-5 {
+
+        background-image: url(../img/portfolio/house_with_blue_doors.jpg);
+        background-size: cover;
+        height: 100%;
+        background-position: center;
+
+    }
+
+    .background-6 {
+
+        background-image: url(../img/portfolio/typing_on_laptop.jpg);
+        background-size: cover;
+        height: 100%;
+        background-position: center;
+
+    }
+
+    .background-img {
+        transition: all 0.3s ease-out;
+    }
+    .background-img:hover {
+        transform: scale(1.5);
+    }
+
+    .mask {
+        height: 100%;
+        background-color: rgba(14, 216, 214, 0.6);
+        opacity: 0;
+        transition: all 0.2s;
+    }
+    .mask:hover {
+        opacity: 1;
+
+    }
+    
+    div.mask > .fa-plus {
+    font-size: 40px;
+    color: $bialy;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}

@@ -1,0 +1,26 @@
+section#meet-our-team {
+    margin: 100px 0px;
+    padding: 50px 0;
+}
+
+section#meet-our-team h2 {
+    text-transform: uppercase;
+    font-weight: sans-serif;
+    padding-bottom: 10px;
+}
+
+section#meet-our-team .content-team figure img {
+    width: 70%;
+    height: auto;
+    border-radius: 50%;
+    padding: 30px 0;
+}
+
+section#meet-our-team .content-team figure p {
+    font-style: normal;
+}
+
+section#meet-our-team .container .paragraf-team {
+    font-style: normal;
+    padding: 30px 0;
+}

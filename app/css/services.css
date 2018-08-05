@@ -1,0 +1,26 @@
+section#services h2 {
+    text-transform: uppercase;
+}
+
+section#services .container p {
+    padding-bottom: 30px;
+}
+
+section#services .service-inner .fa {
+    background-color: #0ed8d6;
+    border: 1px solid #0ed8d6;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 24px;
+    transition: all 0.4s;
+    margin: 20px;
+}
+
+section#services .service-inner .fa:hover {
+    background-color: #fff;
+    color: #0ed8d6;
+    transform: rotate(360deg);
+}

@@ -1,0 +1,31 @@
+#header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/header/pictures_on_the_wall.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#header h1,
+  #header h2 {
+    text-transform: uppercase;
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#header h2 {
+    text-transform: none;
+    font-family: serif;
+}
+
+#header .main-header {
+    color: #fff;
+}
+
+#header .main-header h2 {
+    font-weight: 400;
+}

@@ -1,0 +1,35 @@
+@import 'mixins';
+@import 'zmienne';
+
+section#meet-our-team {
+    margin: 100px 0px;
+    padding: 50px 0;
+
+    h2 {
+        text-transform: uppercase;
+        font-weight: sans-serif;
+        padding-bottom: 10px;
+    }
+
+    .content-team {
+        figure {
+            img {
+                width: 70%;
+                height: auto;
+                border-radius: 50%;
+                padding: 30px 0;
+            }
+
+            p {
+                font-style: normal;
+            }
+        }
+    }
+
+    .container {
+        .paragraf-team {
+            font-style: normal;
+            padding: 30px 0;
+        }
+    }
+}
